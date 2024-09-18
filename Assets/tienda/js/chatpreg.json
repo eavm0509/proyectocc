@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "Hola",
+        "respuesta": "Hola, un gusto! En que te puedo ayudar"
+    },
+    {
+        "pregunta": "Qué productos vendes?",
+        "respuesta": "En nuestra tienda virtual, ofrecemos una amplia variedad de productos, desde ropa y accesorios hasta electrónica y artículos para el hogar. ¿Hay algo en particular que estés buscando?"
+    },
+    {
+        "pregunta": "Cuáles son los metodos de pago aceptados?",
+        "respuesta": "Aceptamos varias formas de pago, incluyendo tarjetas de crédito (Visa, Mastercard, American Express), PayPal y transferencias bancarias. ¿Tienes alguna preferencia en particular?"
+    },
+    {
+        "pregunta": "Cuánto tiempo tarda en llegar un pedido?",
+        "respuesta": "El tiempo de entrega puede variar dependiendo de tu ubicación y el tipo de envío seleccionado. Por lo general, procesamos los pedidos en un plazo de 1 a 2 días hábiles y el tiempo de envío puede oscilar entre 3 y 7 días hábiles. ¿Te gustaría saber más sobre el envío de tu pedido en específico?"
+    },
+    {
+        "pregunta": "Tienen politica de devoluciones?",
+        "respuesta": "Sí, tenemos una política de devoluciones. Si por alguna razón no estás satisfecho con tu compra, puedes devolver el producto en un plazo de 30 días y te reembolsaremos el importe pagado. ¿Te gustaría más información sobre nuestra política de devoluciones?"
+    },
+    {
+        "pregunta": "Ofrecen descuentos o promociones especiales?",
+        "respuesta": "¡Sí! Regularmente ofrecemos descuentos y promociones especiales en nuestros productos. Te recomendaría suscribirte a nuestra lista de correo o seguirnos en nuestras redes sociales para estar al tanto de nuestras últimas ofertas. ¿Hay algo en particular en lo que estés interesado?"
+    },
+    {
+        "pregunta": "Puedo rastrear el estado de mi pedido?",
+        "respuesta": "Por supuesto. Una vez que hayas realizado tu pedido, te enviaremos un número de seguimiento por correo electrónico. Podrás utilizar ese número para rastrear el estado de tu envío en nuestro sitio web o en la página de la empresa de transporte. ¿Necesitas ayuda con el seguimiento de tu pedido?"
+    },
+    {
+        "pregunta": "Cómo puedo realizar un pedido?",
+        "respuesta": "Puedes realizar un pedido en nuestra tienda en línea seleccionando los productos que deseas y siguiendo los pasos de pago."
+    },
+    {
+        "pregunta": "Cuál es el tiempo de entrega?",
+        "respuesta": "El tiempo de entrega puede variar según tu ubicación y el método de envío seleccionado. Por lo general, suele ser de 3 a 7 días hábiles."
+    },
+    {
+        "pregunta": "Cuáles son tus horarios de atencion?",
+        "respuesta": "Nuestros horarios de atención son de lunes a viernes de 9:00 a.m. a 6:00 p.m. y los sábados de 9:00 a.m. a 12:00 p.m."
+    },
+    {
+        "pregunta": "Cuál es tu política de privacidad?",
+        "respuesta": "Nos tomamos muy en serio tu privacidad. Puedes leer nuestra política de privacidad en el enlace [insertar enlace a la política de privacidad]."
+    },
+    {
+        "pregunta": "Cuáles son tus metodos de envio?",
+        "respuesta": "Ofrecemos envío estándar y express. El envío estándar demora de 3 a 5 días hábiles, mientras que el envío express llega en 1 o 2 días hábiles."
+    },
+    {
+        "pregunta": "Tienes una tienda fisica?",
+        "respuesta": "Actualmente, operamos únicamente como una tienda en línea. De esta manera, podemos ofrecerte precios más competitivos y una amplia selección de productos."
+    },
+    {
+        "pregunta": "Como puedo realizar un seguimiento de mi pedido?",
+        "respuesta": "Una vez que tu pedido haya sido enviado, te enviaremos un correo electrónico con un número de seguimiento. Podrás utilizar ese número para rastrear el estado de tu envío en nuestra página de seguimiento."
+    },
+    {
+        "pregunta": "Ofrecen descuentos para compras al por mayor?",
+        "respuesta": "Sí, ofrecemos descuentos especiales para compras al por mayor. Ponte en contacto con nuestro equipo de ventas y estaremos encantados de brindarte más información."
+    },
+    {
+        "pregunta": "Tienes atencion al cliente por telefono?",
+        "respuesta": "Sí, contamos con un equipo de atención al cliente disponible para ayudarte por teléfono. Puedes comunicarte al número [insertar número de teléfono] durante nuestros horarios de atención."
+    },
+    {
+        "pregunta": "Cuales son tus metodos de contacto?",
+        "respuesta": "Puedes contactarnos a través de nuestro formulario de contacto en nuestro sitio web o enviarnos un correo electrónico a [insertar dirección de correo electrónico]. Estaremos encantados de ayudarte."
+    },
+    {
+        "pregunta": "Como puedo cancelar mi pedido?",
+        "respuesta": "Si deseas cancelar tu pedido, debes comunicarte con nuestro equipo de atención al cliente lo antes posible. Si el pedido aún no ha sido enviado, podremos ayudarte con la cancelación y el reembolso."
+    },
+    {
+        "pregunta": "Ofrecen opciones de personalizacion para los productos?",
+        "respuesta": "Sí, ofrecemos opciones de personalización para muchos de nuestros productos. Puedes consultar los detalles de personalización disponibles en la página del producto o comunicarte con nuestro equipo para obtener más información."
+    },
+    {
+        "pregunta": "Hacen envios?",
+        "respuesta": "Por supuesto,hacemos envios a cualquier ciudad del pais"
+    }
+]

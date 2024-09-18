@@ -8,17 +8,16 @@
     
     <title><?php echo $data['page_name']?></title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap4.3/css/bootstrap.min.css">
-    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/libs/css/style.css">
-    <link rel="stylesheet" href="assets/libs/css/main.css">
-    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/buttons.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/select.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/fixedHeader.bootstrap4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    <link href="<?= media() ?>vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= media() ?>libs/css/style.css">
+    <link rel="stylesheet" href="<?= media() ?>libs/css/main.css">
+    <link rel="stylesheet" href="<?= media() ?>vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="<?= media() ?>vendor/datatables/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="<?= media() ?>vendor/datatables/css/buttons.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="<?= media() ?>vendor/datatables/css/select.bootstrap4.css">
+    <link rel="stylesheet" type="text/css" href="<?= media() ?>vendor/datatables/css/fixedHeader.bootstrap4.css">
 
-    <link rel="stylesheet" href="assets/vendor/select2/css/select2.css">
+    <link rel="stylesheet" href="<?= media() ?>vendor/select2/css/select2.css">
 
 
 

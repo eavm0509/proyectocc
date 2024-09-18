@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Login - Tienda Virtual </title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap4.3/css/bootstrap.min.css">
-    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/libs/css/style.css">
-    <link rel="stylesheet" href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="<?= media() ?>vendor/bootstrap4.3/css/bootstrap.min.css">
+    <link href="<?= media() ?>vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= media() ?>libs/css/style.css">
+    <link rel="stylesheet" href="<?= media() ?>vendor/fonts/fontawesome/css/fontawesome-all.css">
     <style>
     html,
     body {

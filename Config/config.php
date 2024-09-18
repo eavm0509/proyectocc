@@ -2,10 +2,10 @@
 const BASE_URL = "http://localhost/tienda";
 
 //Zona horaria
-date_default_timezone_set('America/Bogota');
+date_default_timezone_set('America/Lima');
 
 const DB_HOST = "localhost";
-const DB_NAME = "db_tienda";
+const DB_NAME = "db_tienda2";
 const DB_USER = "root";
 const DB_PASSWORD = "";
 const DB_CHARSET = "charset=utf8";

@@ -40,6 +40,8 @@ trait TProducto
                         $arrImg[$i]['url_image'] = media() . '/images/uploads/' . $arrImg[$i]['img'];
                     }
                 }
+                $nombrep =  $request[$c]['nombre'];
+                $request[$c]['nombre'] = strtr($nombrep," ","_");
                 $request[$c]['images'] = $arrImg;
             }
         }
@@ -82,6 +84,8 @@ trait TProducto
                         }
                     }
                     $request[$c]['images'] = $arrImg;
+                    $categorian = $request[$c]['nombre'];
+                    $request[$c]['nombre'] = strtr($categorian," ","_");
                 }
             }
         }

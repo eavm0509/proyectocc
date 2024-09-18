@@ -71,5 +71,5 @@
     </div>
 <?php require_once 'Views/Templates/Modals/modalRoles.php';
 ?>
-<script src="assets/libs/js/functions_roles.js"></script>
+<script src="<?= media() ?>libs/js/functions_roles.js"></script>
 <?php footerAdmin($data); ?>

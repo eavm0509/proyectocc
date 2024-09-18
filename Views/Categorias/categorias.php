@@ -72,6 +72,6 @@
     </div>
 <?php require_once 'Views/Templates/Modals/modalCategorias.php';
 ?>
-<script src="assets/libs/js/functions_categorias.js"></script>
+<script src="<?= media() ?>libs/js/functions_categorias.js"></script>
 
 <?php footerAdmin($data); ?>

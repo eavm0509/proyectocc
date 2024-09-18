@@ -73,7 +73,7 @@
     </div>
 <?php require_once 'Views/Templates/Modals/modalProductos.php';
 ?>
-<script src="assets/libs/js/functions_productos.js"></script>
-<script src="assets/libs/js/JsBarcode.all.min.js"></script>
+<script src="<?= media() ?>libs/js/functions_productos.js"></script>
+<script src="<?= media() ?>libs/js/JsBarcode.all.min.js"></script>
 
 <?php footerAdmin($data); ?>

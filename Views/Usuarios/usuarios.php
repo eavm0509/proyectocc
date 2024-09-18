@@ -71,6 +71,6 @@
     </div>
 <?php require_once 'Views/Templates/Modals/modalUsuarios.php';
 ?>
-<script src="assets/libs/js/functions_usuarios.js"></script>
+<script src="<?= media() ?>libs/js/functions_usuarios.js"></script>
 
 <?php footerAdmin($data); ?>

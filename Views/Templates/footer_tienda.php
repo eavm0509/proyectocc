@@ -101,6 +101,8 @@
 		</span>
 	</div>
 
+	
+
 
 	<script>const base_url = "<?= base_url()?>"
 			const smony = "<?= SMONEY;?>"
@@ -111,8 +113,7 @@
 	<script src="<?= media() ?>tienda/vendor/animsition/js/animsition.min.js"></script>
 	<!--===============================================================================================-->
 	<script src="<?= media() ?>tienda/vendor/bootstrap/js/popper.js"></script>
-	<script src="<?= media() ?>tienda/vendor/bootstrap/js/bootstrap.min.js"></script>
-	<!--===============================================================================================-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>	<!--===============================================================================================-->
 	<script src="<?= media() ?>tienda/vendor/select2/select2.min.js"></script>
 
 	<!--===============================================================================================-->
@@ -136,7 +137,7 @@
 	<script src="<?= media() ?>tienda/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 
 	<!--===============================================================================================-->
-	<script src="<?= media() ?>tienda/js/main.js"></script>
+	<script src="<?= media() ?>tienda/js/main.js" type="module"></script>
 	<script src="<?= media() ?>tienda/js/functions.js"></script>
 	<script src="<?= media() ?>libs/js/functions_logint.js"></script>
 

@@ -6,7 +6,7 @@
 
         <div id="divLoading">
             <div>
-                <img src="assets/images/loader.svg" alt="Loading">
+                <img src="<?= media() ?>images/loader.svg" alt="Loading">
             </div>
         </div>
         <!-- ============================================================== -->

@@ -100,7 +100,7 @@ headerTienda($data);
 
 <div>
 	<div class="container-fluid py-5 text-center" >
-		<img src="<?= media() ?>/images/construction.png" alt="En construcción">
+		<img src="<?= media() ?>images/construction.png" alt="En construcción">
 		<h3>Estamos trabajando para usted.</h3>
 	</div>
 </div>

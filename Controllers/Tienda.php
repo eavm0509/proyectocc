@@ -42,11 +42,13 @@ class Tienda extends Controllers
 		if (empty($params)) {
 			header("Location:" . base_url());
 		} else {
+			
 
 			//$arrParams = explode(",",$params);
 			//$idcategoria = intval($arrParams[0]);
 			//$ruta = strClean($arrParams[1]);
 			$this->categoria = strClean($params);
+			$this->categoria = strtr($this->categoria,"_"," ");
 			$data['active'] = 'class = "active-menu"';
 			$data['page_tag'] = NOMBRE_EMPESA . ' - ' . $this->categoria;
 			$data['page_title'] = $this->categoria;
@@ -84,6 +86,7 @@ class Tienda extends Controllers
 			header("Location:" . base_url());
 		} else {
 			$producto = strClean($params);
+			$producto = strtr($producto,"_"," ");
 			$arrProducto = $this->getProductoT($producto);
 
 
@@ -93,20 +96,7 @@ class Tienda extends Controllers
 			$data['page_title'] = $producto;
 			$data['active'] = 'class = "active-menu"';
 			$data['productos'] = $this->getProductosRandom($arrProducto['idcategoria'], 8, "r");
-			//$data['productos'] = $this->getProductosCategoriaT($categoria);
-			//$arrParams = explode(",",$params);
-			//$idproducto = intval($arrParams[0]);
-			//$ruta = strClean($arrParams[1]);
-			//$infoProducto = $this->getProductoT($idproducto,$ruta);
-			/*if(empty($infoProducto)){
-					header("Location:".base_url());
-				}*/
-
-			//$data['page_tag'] = NOMBRE_EMPESA." - ".$infoProducto['nombre'];
-			//$data['page_title'] = $infoProducto['nombre'];
-			//$data['page_name'] = "producto";
-			//$data['producto'] = $infoProducto;
-			//$data['productos'] = $this->getProductosRandom($infoProducto['categoriaid'],8,"r");
+			
 			$this->views->getView($this, "producto", $data);
 		}
 	}
